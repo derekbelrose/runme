@@ -21,7 +21,7 @@
         '';
 
         # An app that uses the `runme` package
-        apps.default = {
+        apps.runme = {
           type = "app";
           program = "${self.packages.${system}.runme}/bin/runme";
         };
